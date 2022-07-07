@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <script>
+     const names = ['sam', 'emma', 'dan', 'king']
+     names.push('box')
+     console.log(names);
+     console.log(names.length);
+     names.slice(2, 1);
+     console.log("------------ sets --------------");
+
+     const ids = new Set();
+     ids.add("abc");
+     ids.add("abc");
+     ids.add(1);
+
+     for (const set of ids) {
+        console.log(set)
+     }
+     console.log(ids.has("brc"));
+     console.log("------------ MAP --------------");
+     const map = new Map()
+     const Nigeria = {name: "nigeria", age: 61}
+     map.set(Nigeria, 39)
+     for (const maps of map) {
+        console.log(maps);
+     }
+    
+    </script>
+</body>
+</html>

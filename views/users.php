@@ -15,43 +15,29 @@
 <body>
     <div class="wrapper">
         <section class="users">
-            <header>
-                <div class="content">
-                <img id="user_img" src="../images/" alt="">
-                    <div class="details">
-                        <span  id="user_name"></span>
-                        <p>Active Now</p>
-                    </div>
-                </div>
-                <a href="#" class="logout">Logout</a>
+            <header id="header">
+               
             </header>
             <form> 
             <div class="search">
                 
-                <span class="text" >Select an user to start with</span>
+                <!-- <span class="text" >Select an user to start with</span> -->
                 <input type="text" name="search_user" placeholder="Enter name to search..">
                 <button name="search"> <i class="fas fa-search"></i> </button>
                 
             </div>
             </form>
-            <div class="users-list">
+            <div class="users-list" id= "users-list">
               
-                    <a href='#'>
-                        <div class='content'>
-                            <img src="ayo.jpg">
-                            <div class='details'>
-                                <span id="activeUser"></span>
-                                <p>Start Chating</p>
-                            </div>
-                        </div>
-                       <div class='status-dot'> <i class='fas fa-circle'></i> </div>
-                      
-                    </a>
+                 
             </div>
         </section>
         
     </div>
     <script src="../javascript/users.js"></script>
+    
+   
+   
     
 </body>
 
